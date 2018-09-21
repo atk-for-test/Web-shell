@@ -42,4 +42,14 @@ else
 		  echo "publish success & uploaded".$rootPath;
     }
 }
+
+function createFolder($path)
+{
+  if (!file_exists($path))
+  {
+    createFolder(dirname($path));
+    mkdir($path, 0777);
+  }
+}
+?>
     
