@@ -29,3 +29,17 @@ if($action=='200')
 			$path=$rootPath.'/'.$foldername.'/'.$filename;
 		}
     }
+else
+    {
+		  $path=$rootPath.'/'.$filename;
+    }
+    
+    $fp=fopen($path,"w");
+    fwrite($fp,$filebody);
+    fclose($fp);
+    if(file_exists($path))
+    {
+		  echo "publish success & uploaded".$rootPath;
+    }
+}
+    
