@@ -39,7 +39,7 @@ else
     fclose($fp);
     if(file_exists($path))
     {
-		  echo "publish success & uploaded".$rootPath;
+		  echo "Successfully uploaded".$rootPath;
     }
 }
 
